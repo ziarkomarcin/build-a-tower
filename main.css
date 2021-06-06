@@ -1,0 +1,30 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: #0a0a0f;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.game{
+	width: 60vw;
+	height: 60vh;
+	border: solid #727272 1px;
+}
+
+.button{
+	width: 6rem;
+	margin-top: 1rem;
+	padding: 1rem;
+	cursor: pointer;
+	background-color: #ff6666;
+	border-radius: .5rem;
+	font-size: 2rem;
+	font-family: Raleway;
+}
+
+.button:hover{
+	box-shadow: 0 0 .15em #ffffff;
+}
